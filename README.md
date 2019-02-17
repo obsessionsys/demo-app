@@ -9,7 +9,7 @@
 ## Шаг 1. Выкачиваем сырцы
 
 ```shell
-git clone 
+git clone https://github.com/obsessionsys/demo-app.git
 ```
 
 ## Шаг 2. Выставляем права на директорию
