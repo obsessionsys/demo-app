@@ -45,7 +45,7 @@ services:
       image: demo-app:1.0.0
       container_name: demo-app
       build: ./app
-      command: ["/app/read-check.sh", "prometheus-app", "--", "python", "app.py"]
+      command: ["/app/read-check.sh", "prometheus-app", "python", "app.py"]
       ports:
         - "0.0.0.0:8080:8080"
         - "0.0.0.0:8000:8000"
