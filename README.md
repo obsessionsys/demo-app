@@ -52,7 +52,7 @@ URL App Exporter: **http://HOST_IP:8000**
 
 ![Import](image/import.png)
 
-## NOTICE
+## ВАЖНО !!!
 * Нет безопасности Prometheus
 * Нет защищенности на уровне SSL всех URL-ов
 * Не реализовано запросы по FQDN + SSL
