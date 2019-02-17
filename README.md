@@ -33,9 +33,23 @@ docker-compose up -d
 ```
 
 ## Шаг 4. Подключаем Grafana к datasource Prometheus
+URL Grafana: **http://HOST_IP:3000**
+Grafana Login: **admin**
+Grafana Pass: **pass**
+
+URL Prometheus: **http://HOST_IP:9090**
+
+URL Application: **http://HOST_IP:8080**
+
+URL App Exporter: **http://HOST_IP:8000**
 
 ![Connect](image/connect.png)
 
 ## Шаг 5. Импортируем дашбоард
 
 ![Import](image/import.png)
+
+## NOTICE
+* Нет безопасности Prometheus
+* Нет защищенности на уровне SSL всех URL-ов
+* Не реализовано запросы по FQDN + SSL
