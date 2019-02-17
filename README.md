@@ -34,6 +34,7 @@ docker-compose up -d
 
 ## Шаг 4. Подключаем Grafana к datasource Prometheus
 URL Grafana: **http://HOST_IP:3000**
+
 Grafana Login: **admin**
 Grafana Pass: **pass**
 
